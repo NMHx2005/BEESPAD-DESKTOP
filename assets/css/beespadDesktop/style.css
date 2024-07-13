@@ -730,6 +730,8 @@ a {
 /* section-13 */
 .section-13 .box {
     background-color: var(--bg-primary);
+    position: relative;
+    z-index: 1;
     border-radius: 48px;
     margin-top: -20px;
     padding-top: 136px;
