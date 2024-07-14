@@ -4,6 +4,23 @@
 * {
   box-sizing: border-box;
 }
+
+/* animation */
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.auto-run-text {
+    animation: slideRight 2s linear infinite;
+}
+/* End animation */
+
+
 :root {
     --color-primary: #EFB725;
     --color-dark: #000000;
