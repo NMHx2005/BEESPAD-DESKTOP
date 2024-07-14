@@ -96,6 +96,10 @@ a {
     color: var(--color-dark);
     background-color: #FEFEFE;
 }
+.header__right button:hover {
+    border: 2px solid #000000;
+    background-color: var(--color-primary);
+}
 .header__link a {
     margin-left: 25px;
     font-weight: 700;
@@ -287,6 +291,10 @@ a {
     background-color: var(--color-primary);
     border: 2px solid #EFB725;
 }
+.section-4__button button:hover {
+    border: 2px solid #EFB725;
+    background: #FFFFFF;
+}
 .section-4__left {
     width: 688px;
 }
@@ -446,6 +454,14 @@ a {
     font-size: 56px;
     margin-right: 158px;
 }
+.section-5__pagination .custom-button:hover {
+    border: 2px solid #EFB725;
+    background: #B7B7B7;
+    color: var(--bg-primary);
+}
+.section-5__pagination .custom-button i:hover {
+    color: black;
+}
 .section-5__feedback {
     display: flex;
 }
@@ -604,6 +620,11 @@ a {
     background-color: var(--color-primary);
     border: 0;
     border-radius: 6px;
+}
+.section-7__desc button:hover {
+    background-color: white;
+    border: 2px solid var(--color-primary);
+
 }
 .section-7__space {
     margin-bottom: 201px;
@@ -900,6 +921,22 @@ a {
     margin-right: 36px;
     margin-bottom: 36px;
 }
+.section-10__item:hover {
+    background-color: var(--color-primary);
+}
+.section-10__item:hover .section-10__title {
+    color: var(--color-dark);
+}
+.section-10__item:hover .section-10__images-key {
+    display: none;
+}
+.section-10__item:hover .section-10__images i {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 32px;
+}
 .section-10__item-3 {
     margin-right: 0;
 }
@@ -909,6 +946,9 @@ a {
     border-radius: 50%;
     background-color: var(--color-primary);
     position: relative;
+}
+.section-10__images i {
+    display: none;
 }
 .section-10__images-key {
     position: absolute;
@@ -1021,6 +1061,11 @@ a {
     background-color: var(--color-primary);
     border: 0;
     border-radius: 6px;
+}
+.section-11__desc button:hover {
+    background-color: white;
+    border: 2px solid var(--color-primary);
+
 }
 .section-11__image {
     margin-left: 142px;
@@ -1161,6 +1206,9 @@ a {
     font-size: 48px;
     color: var(--color-dark);
 }
+.section-12__list:hover {
+    background-color: var(--color-primary);
+}
 .section-12__item-1 {
     margin-right: 155px;
 }
@@ -1274,6 +1322,14 @@ a {
     font-weight: 400;
     margin-right: 20px;
     font-size: 36px;
+}
+.section-13__icon-left:hover {
+    background-color: var(--color-primary);
+    border-radius: 18px;
+}
+.section-13__icon-right:hover {
+    background-color: var(--color-primary);
+    border-radius: 18px;
 }
 .section-13__icon-left img {
     margin-right: 32px;
@@ -1391,6 +1447,10 @@ a {
     position: absolute;
     right: 16px;
     top: 13px;
+}
+.section-13__form--right button:hover {
+    background: #EFB725;
+    border: 2px solid var(--color-dark);
 }
 @media (max-width: 1919.98px) {
     .section-13 .box {
